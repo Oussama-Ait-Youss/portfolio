@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Oussama Ait Youss",
   title: "Full Stack Developer / Web Design Technologist",
   tagline: "Building accessible, pixel-perfect, and robust digital experiences.",
-  bio: "I'm a passionate developer focused on creating clean, intuitive, and performant web applications. With a strong foundation in both front-end aesthetics and back-end architecture, I bridge the gap between design and engineering to build digital products that look great and work flawlessly under the hood.",
+  bio: "Hi! I'm Oussama Ait Youss, a Full Stack Web Developer passionate about turning ideas and complex business challenges into practical, scalable web applications. I enjoy designing software architectures that automate manual processes, improve efficiency, and solve real-world problems. My work spans both frontend and backend development, where I focus on creating responsive user interfaces alongside robust APIs and well-structured databases. Currently studying Full Stack Web Development at YouCode, I've built projects ranging from interactive web applications to complete management platforms using Laravel, PHP, JavaScript, Tailwind CSS, MySQL, and Git. I'm constantly learning about software engineering, system design, and modern web technologies, always striving to build clean, maintainable, and high-performance digital products that make a meaningful impact.",
 };
 
 export const navigationItems = [

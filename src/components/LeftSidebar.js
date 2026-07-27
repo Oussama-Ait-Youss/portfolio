@@ -1,43 +1,11 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Mail, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedinIn, faBehance, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-const GithubIcon = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    {...props}
-  >
-    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3-.3 6-1.5 6-6.5 0-1.4-.5-2.5-1.5-3.4.1-.3.6-1.6-.1-3.3 0 0-1.2-.4-3.9 1.4a12.3 12.3 0 0 0-7.1 0C4.6 2.7 3.4 3.1 3.4 3.1c-.7 1.7-.2 3-.1 3.3-1 .9-1.5 2-1.5 3.4 0 5 3 6.2 6 6.5-.4.4-.7 1-.8 2-.1.5-.1 1.2-.1 1.7 0 .5.3 1 .8 1" />
-  </svg>
-);
-
-const LinkedinIcon = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    {...props}
-  >
-    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-    <rect width="4" height="12" x="2" y="9" />
-    <circle cx="4" cy="4" r="2" />
-  </svg>
-);
 import { personalInfo, navigationItems } from "../data/content";
 import Link from "next/link";
 
@@ -122,38 +90,60 @@ export default function LeftSidebar() {
         </nav>
       </div>
 
-      <ul className="ml-1 mt-8 flex items-center gap-5" aria-label="Social media">
+      <ul className="ml-1 mt-8 flex items-center gap-6" aria-label="Social media">
         <li className="text-xs shrink-0">
           <a
-            className="block hover:text-slate-200 text-slate-400 transition-colors"
-            href="https://github.com"
+            className="block text-slate-400 hover:text-teal-400 transition-colors duration-200"
+            href="https://github.com/Oussama-Ait-Youss"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             aria-label="GitHub"
           >
-            <GithubIcon className="h-6 w-6" />
+            <FontAwesomeIcon icon={faGithub} size="xl" />
           </a>
         </li>
         <li className="text-xs shrink-0">
           <a
-            className="block hover:text-slate-200 text-slate-400 transition-colors"
-            href="https://linkedin.com"
+            className="block text-slate-400 hover:text-teal-400 transition-colors duration-200"
+            href="https://www.linkedin.com/in/oussama-ait-youss-739925330/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             aria-label="LinkedIn"
           >
-            <LinkedinIcon className="h-6 w-6" />
+            <FontAwesomeIcon icon={faLinkedinIn} size="xl" />
           </a>
         </li>
         <li className="text-xs shrink-0">
           <a
-            className="block hover:text-slate-200 text-slate-400 transition-colors"
-            href="mailto:contact@example.com"
+            className="block text-slate-400 hover:text-teal-400 transition-colors duration-200"
+            href="mailto:alikhay815@gmail.com"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             aria-label="Email"
           >
-            <Mail className="h-6 w-6" />
+            <FontAwesomeIcon icon={faEnvelope} size="xl" />
+          </a>
+        </li>
+        <li className="text-xs shrink-0">
+          <a
+            className="block text-slate-400 hover:text-teal-400 transition-colors duration-200"
+            href="https://www.behance.net/alikhay"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Behance"
+          >
+            <FontAwesomeIcon icon={faBehance} size="xl" />
+          </a>
+        </li>
+        <li className="text-xs shrink-0">
+          <a
+            className="block text-slate-400 hover:text-teal-400 transition-colors duration-200"
+            href="https://x.com/AliKhay864719"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="X (Twitter)"
+          >
+            <FontAwesomeIcon icon={faXTwitter} size="xl" />
           </a>
         </li>
       </ul>
