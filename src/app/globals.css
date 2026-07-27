@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-slate-900 text-slate-300 antialiased selection:bg-teal-300/30 selection:text-teal-200;
+  }
+}
