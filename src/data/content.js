@@ -13,6 +13,7 @@ export const navigationItems = [
   { name: "About", href: "#about" },
   { name: "Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
+  { name: "Visuals", href: "#visuals" },
 ];
 
 export const experienceData = [
@@ -132,5 +133,60 @@ export const projectsData = [
     description: "Initial catalog management iteration focusing on core CRUD operations, administrative protection, and structured category mapping.",
     link: "https://github.com/Oussama-Ait-Youss/TifawinSouk-E-com",
     tech: ["Laravel", "Blade", "MySQL", "Git"],
+  }
+];
+
+export const featuredVisuals = [
+  {
+    title: "KARIM DBILA | BRAND IDENTITY",
+    category: "Branding",
+    description: "KARIM DBILA is a handcrafted pottery brand that celebrates authenticity, craftsmanship, and timeless design. This branding project was created to reflect the artistry behind every ceramic piece while establishing a modern and memorable visual identity.",
+    tools: ["Illustrator", "Photoshop"],
+    image: "./images/visuals/dbila_wallpaper.png",
+    behanceUrl: "https://www.behance.net/gallery/253433793/KARIM-DBILA-BRAND-IDENTITY"
+  },
+  {
+    title: "MORTOURS | BRAND IDENTITY",
+    category: "Branding",
+    description: "Creating digital products is what I do every day as a full-stack developer, but every now and then I enjoy exploring branding and visual identity.",
+    tools: ["Photoshop", "Illustrator"],
+    image: "/images/visuals/mortours_wallpaper.png",
+    behanceUrl: "https://www.behance.net/gallery/253434763/MORTOURS-BRAND-IDENTITY"
+  },
+  {
+    title: "Commercial Editorial Catalogs",
+    category: "Print & Layout",
+    description: "Structured corporate brochures and multi-page product catalogs designed with professional grid alignment and typography.",
+    tools: ["Adobe InDesign", "Illustrator"],
+    image: "/images/visuals/catalog.jpg",
+    behanceUrl: "https://www.behance.net/alikhay"
+  },
+  {
+    title: "E-Sport Event Key Visuals",
+    category: "Digital Illustration",
+    description: "Dynamic promotional posters, tournament key arts, and brand assets designed for competitive gaming communities.",
+    tools: ["Photoshop", "Illustrator"],
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
+    behanceUrl: "https://www.behance.net/alikhay"
+  }
+];
+
+export const allVisuals = [
+  ...featuredVisuals,
+  {
+    title: "Typography & Poster Series",
+    category: "Editorial Design",
+    description: "Experimental typography layout and artistic poster design exploring modernist grid structures.",
+    tools: ["InDesign", "Illustrator"],
+    image: "/images/visuals/poster.jpg",
+    behanceUrl: "https://www.behance.net/alikhay"
+  },
+  {
+    title: "E-Commerce Product Visuals",
+    category: "Commercial Retouching",
+    description: "Advanced photo manipulation, background cleanup, and commercial mockup staging for online storefront items.",
+    tools: ["Photoshop"],
+    image: "/images/visuals/ecommerce.jpg",
+    behanceUrl: "https://www.behance.net/alikhay"
   }
 ];

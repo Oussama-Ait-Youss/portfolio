@@ -1,6 +1,7 @@
 import About from "./sections/About";
 import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
+import Visuals from "./sections/Visuals";
 
 export default function RightContent() {
   return (
@@ -8,6 +9,7 @@ export default function RightContent() {
       <About />
       <Experience />
       <Projects />
+      <Visuals />
       
       <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
         <p>
