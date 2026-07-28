@@ -13,10 +13,11 @@ export default function About() {
         </h2>
       </div>
       <div>
-        <p className="mb-4">{personalInfo.bio}</p>
-        <p>
-          Whether it's crafting an intuitive user interface or designing a resilient backend architecture, my approach is rooted in delivering seamless and meaningful user experiences.
-        </p>
+        {personalInfo.aboutParagraphs.map((paragraph, index) => (
+          <p key={index} className="mb-4">
+            {paragraph}
+          </p>
+        ))}
       </div>
     </section>
   );
