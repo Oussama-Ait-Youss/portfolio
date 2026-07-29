@@ -8,10 +8,13 @@ export const metadata = {
   description: "Building accessible, pixel-perfect, and robust digital experiences.",
 };
 
+import Spotlight from "@/components/Spotlight";
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} min-h-screen bg-slate-900 text-slate-400`}>
+      <body className={`${inter.className} min-h-screen bg-slate-950 text-slate-400 relative`}>
+        <Spotlight />
         {children}
       </body>
     </html>
