@@ -52,6 +52,7 @@ export const projectsData = [
     description: "Smart restaurant feedback management platform using NFC technology to simplify customer review collection, staff tracking, and sentiment analysis.",
     link: "https://github.com/Oussama-Ait-Youss/Revio",
     tech: ["React", "Laravel", "Tailwind CSS", "MySQL", "REST API"],
+    image: "/images/visuals/revio.png"
   },
   {
     id: 2,
@@ -61,6 +62,7 @@ export const projectsData = [
     description: "E-commerce web application for showcasing and selling handmade pottery products with store management and order processing.",
     link: "https://github.com/Oussama-Ait-Youss/karim_dbila",
     tech: ["Laravel", "PHP", "Tailwind CSS", "MySQL", "JavaScript"],
+    image: "/images/visuals/pottery_website.jpg"
   },
   {
     id: 3,
@@ -70,6 +72,7 @@ export const projectsData = [
     description: "Centralized web platform developed with Laravel for managing competitive events, e-sports tournaments, and hackathons with real-time brackets.",
     link: "https://github.com/Oussama-Ait-Youss/YOUCODE-ARENA-FILL_ROUGE",
     tech: ["Laravel 11", "Blade", "Tailwind CSS", "MySQL"],
+    image: "/images/visuals/youcode_arena.jpg"
   },
   {
     id: 4,
@@ -79,6 +82,7 @@ export const projectsData = [
     description: "Monolithic web app to simplify financial and organizational management within shared housing, calculating automated debt shares and expense tracking.",
     link: "https://github.com/Oussama-Ait-Youss/EasyColoc",
     tech: ["Laravel", "Laravel Breeze", "MySQL", "Eloquent ORM"],
+    image: "/images/visuals/easycoloc.webp"
   },
   {
     id: 5,

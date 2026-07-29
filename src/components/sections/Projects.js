@@ -21,11 +21,18 @@ export default function Projects() {
               <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
               
               <div className="z-10 sm:col-span-2">
-                <div className="rounded border-2 border-slate-700/50 bg-slate-800/50 aspect-video flex items-center justify-center text-slate-500 text-xs mt-1 transition group-hover:border-slate-500/50">
-                  {/* Placeholder for project image */}
-                  No Image
-                </div>
-              </div>
+  {project.image ? (
+    <img 
+      src={project.image} 
+      alt={`${project.title} screenshot`} 
+      className="rounded border-2 border-slate-700/50 aspect-video object-cover object-top w-full mt-1 transition group-hover:border-slate-500/50"
+    />
+  ) : (
+    <div className="rounded border-2 border-slate-700/50 bg-slate-800/50 aspect-video flex items-center justify-center text-slate-500 text-xs mt-1 transition group-hover:border-slate-500/50">
+      No Image
+    </div>
+  )}
+</div>
               
               <div className="z-10 sm:col-span-6">
                 <h3 className="font-medium leading-snug text-slate-200">
