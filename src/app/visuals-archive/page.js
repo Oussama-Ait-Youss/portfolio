@@ -4,6 +4,7 @@ import React from 'react';
 import { allVisuals } from '../../data/content';
 import { ExternalLink, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function VisualsArchivePage() {
   return (
@@ -33,9 +34,11 @@ function ArchiveVisualCard({ visual }) {
   return (
     <div className="group relative flex flex-col overflow-hidden bg-red-800 rounded-xl bg-slate-800/50 border border-slate-700/50 p-4 transition-all hover:border-teal-500/50 hover:bg-slate-800/80">
       <div className="relative mb-4 aspect-video w-full overflow-hidden rounded-lg bg-slate-800/40 border border-slate-700/30 flex items-center justify-center">
-        <img
+        <Image
           src={visual.image}
           alt={visual.title}
+          width={800}
+          height={450}
           className="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
         />
         <span className="absolute top-2 right-2 rounded-full bg-slate-900/80 px-3 py-1 text-xs font-medium text-teal-300 backdrop-blur">

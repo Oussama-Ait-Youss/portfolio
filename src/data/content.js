@@ -52,7 +52,7 @@ export const projectsData = [
     description: "Smart restaurant feedback management platform using NFC technology to simplify customer review collection, staff tracking, and sentiment analysis.",
     link: "https://github.com/Oussama-Ait-Youss/Revio",
     tech: ["React", "Laravel", "Tailwind CSS", "MySQL", "REST API"],
-    image: "/portfolio/images/visuals/revio.png"
+    image: "/images/visuals/revio.png"
   },
   {
     id: 2,
@@ -62,7 +62,7 @@ export const projectsData = [
     description: "E-commerce web application for showcasing and selling handmade pottery products with store management and order processing.",
     link: "https://github.com/Oussama-Ait-Youss/karim_dbila",
     tech: ["Laravel", "PHP", "Tailwind CSS", "MySQL", "JavaScript"],
-    image: "/portfolio/images/visuals/pottery_website.jpg"
+    image: "/images/visuals/pottery_website.jpg"
   },
   {
     id: 3,
@@ -72,7 +72,7 @@ export const projectsData = [
     description: "Centralized web platform developed with Laravel for managing competitive events, e-sports tournaments, and hackathons with real-time brackets.",
     link: "https://github.com/Oussama-Ait-Youss/YOUCODE-ARENA-FILL_ROUGE",
     tech: ["Laravel 11", "Blade", "Tailwind CSS", "MySQL"],
-    image: "/portfolio/images/visuals/youcode_arena.jpg"
+    image: "/images/visuals/youcode_arena.jpg"
   },
   {
     id: 4,
@@ -82,7 +82,7 @@ export const projectsData = [
     description: "Monolithic web app to simplify financial and organizational management within shared housing, calculating automated debt shares and expense tracking.",
     link: "https://github.com/Oussama-Ait-Youss/EasyColoc",
     tech: ["Laravel", "Laravel Breeze", "MySQL", "Eloquent ORM"],
-    image: "/portfolio/images/visuals/easycoloc.webp"
+    image: "/images/visuals/easycoloc.webp"
   },
   {
     id: 5,
@@ -146,7 +146,7 @@ export const featuredVisuals = [
     category: "Branding",
     description: "KARIM DBILA is a handcrafted pottery brand that celebrates authenticity, craftsmanship, and timeless design. This branding project was created to reflect the artistry behind every ceramic piece while establishing a modern and memorable visual identity.",
     tools: ["Illustrator", "Photoshop"],
-    image: "/portfolio/images/visuals/dbila_wallpaper.png",
+    image: "/images/visuals/dbila_wallpaper.png",
     behanceUrl: "https://www.behance.net/gallery/253433793/KARIM-DBILA-BRAND-IDENTITY"
   },
   {
@@ -154,7 +154,7 @@ export const featuredVisuals = [
     category: "Branding",
     description: "Creating digital products is what I do every day as a full-stack developer, but every now and then I enjoy exploring branding and visual identity.",
     tools: ["Photoshop", "Illustrator"],
-    image: "/portfolio/images/visuals/mortours_wallpaper.png",
+    image: "/images/visuals/mortours_wallpaper.png",
     behanceUrl: "https://www.behance.net/gallery/253434763/MORTOURS-BRAND-IDENTITY"
   },
 ];
