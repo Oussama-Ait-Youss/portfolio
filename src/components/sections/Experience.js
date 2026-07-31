@@ -55,7 +55,7 @@ export default function Experience() {
         <a
           className="inline-flex items-center font-medium leading-tight text-slate-200 group"
           aria-label="View Full Résumé"
-          href={getAssetPath("/resume.pdf")}
+          href={getAssetPath("/Ait-Youss-Oussama-English.pdf")}
           download="Ait-Youss-Oussama-English.pdf"
         >
           <span>
