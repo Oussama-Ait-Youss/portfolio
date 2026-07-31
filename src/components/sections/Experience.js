@@ -1,4 +1,5 @@
 import { experienceData } from "../../data/content";
+import { getAssetPath } from "../../utils/path";
 
 export default function Experience() {
   return (
@@ -54,7 +55,7 @@ export default function Experience() {
         <a
           className="inline-flex items-center font-medium leading-tight text-slate-200 group"
           aria-label="View Full Résumé"
-          href="/resume.pdf"
+          href={getAssetPath("/resume.pdf")}
           download="Oussama_Ait_Youss_Resume.pdf"
         >
           <span>

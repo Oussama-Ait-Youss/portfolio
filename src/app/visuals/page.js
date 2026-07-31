@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { allVisuals } from "../../data/content";
+import { getAssetPath } from "../../utils/path";
 
 export const metadata = {
   title: "Visuals Archive | Oussama Ait Youss",
@@ -34,7 +35,7 @@ export default function VisualsArchive() {
               <div className="aspect-video relative overflow-hidden bg-slate-900 flex items-center justify-center border-b border-slate-700/50">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={visual.image}
+                  src={getAssetPath(visual.image)}
                   alt={visual.title}
                   className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-80 group-hover:opacity-100"
                   loading="lazy"

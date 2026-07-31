@@ -1,7 +1,7 @@
 import { projectsData } from "../../data/content";
 import { ExternalLink } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
+import { getAssetPath } from "../../utils/path";
 
 export default function Projects() {
   return (
@@ -24,11 +24,9 @@ export default function Projects() {
               
               <div className="z-10 sm:col-span-2">
   {project.image ? (
-    <Image 
-      src={project.image} 
+    <img 
+      src={getAssetPath(project.image)} 
       alt={`${project.title} screenshot`}
-      width={800}
-      height={450}
       className="rounded border-2 border-slate-700/50 aspect-video object-cover object-top w-full mt-1 transition group-hover:border-slate-500/50"
     />
   ) : (
