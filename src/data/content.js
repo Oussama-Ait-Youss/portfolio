@@ -21,7 +21,7 @@ export const experienceData = [
     id: 1,
     role: "Full Stack Web Developer",
     company: "YouCode, Youssoufia",
-    period: "2023 - Present",
+    period: "2025 - Present",
     description: "Intensive training program focused on modern web architectures, backend development, and Agile/Scrum methodologies.",
     skills: ["HTML", "CSS", "JS", "Laravel", "React", "Agile", "Scrum"],
   },
@@ -29,7 +29,7 @@ export const experienceData = [
     id: 2,
     role: "Higher Technician Certificate (BTS)",
     company: "BTS Center, Marrakech",
-    period: "2021 - 2023",
+    period: "2023 - 2025",
     description: "Comprehensive study in multimedia, graphic design, and software engineering fundamentals.",
     skills: ["HTML", "CSS", "JS", "Java", "Photoshop", "Illustrator", "InDesign", "C"],
   },
@@ -37,7 +37,7 @@ export const experienceData = [
     id: 3,
     role: "Baccalaureate in Physical Sciences",
     company: "Tasseltant High School, Marrakech",
-    period: "2020 - 2021",
+    period: "2022 - 2023",
     description: "Core high school curriculum with a strong concentration in physical sciences and mathematics.",
     skills: [],
   }
@@ -157,40 +157,8 @@ export const featuredVisuals = [
     image: "/images/visuals/mortours_wallpaper.png",
     behanceUrl: "https://www.behance.net/gallery/253434763/MORTOURS-BRAND-IDENTITY"
   },
-  {
-    title: "Commercial Editorial Catalogs",
-    category: "Print & Layout",
-    description: "Structured corporate brochures and multi-page product catalogs designed with professional grid alignment and typography.",
-    tools: ["Adobe InDesign", "Illustrator"],
-    image: "/images/visuals/catalog.jpg",
-    behanceUrl: "https://www.behance.net/alikhay"
-  },
-  {
-    title: "E-Sport Event Key Visuals",
-    category: "Digital Illustration",
-    description: "Dynamic promotional posters, tournament key arts, and brand assets designed for competitive gaming communities.",
-    tools: ["Photoshop", "Illustrator"],
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop",
-    behanceUrl: "https://www.behance.net/alikhay"
-  }
 ];
 
 export const allVisuals = [
   ...featuredVisuals,
-  {
-    title: "Typography & Poster Series",
-    category: "Editorial Design",
-    description: "Experimental typography layout and artistic poster design exploring modernist grid structures.",
-    tools: ["InDesign", "Illustrator"],
-    image: "/images/visuals/poster.jpg",
-    behanceUrl: "https://www.behance.net/alikhay"
-  },
-  {
-    title: "E-Commerce Product Visuals",
-    category: "Commercial Retouching",
-    description: "Advanced photo manipulation, background cleanup, and commercial mockup staging for online storefront items.",
-    tools: ["Photoshop"],
-    image: "/images/visuals/ecommerce.jpg",
-    behanceUrl: "https://www.behance.net/alikhay"
-  }
 ];
